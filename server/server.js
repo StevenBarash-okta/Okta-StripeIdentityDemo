@@ -3,7 +3,7 @@ const { resolve } = require("path");
 var cors = require('cors')
 
 const env = require("dotenv").config({
-  path: resolve(__dirname, "../../.env"),
+  path: resolve(__dirname, "../.env"),
 });
 
 // ejs
